@@ -1,0 +1,60 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/pratham/Downloads/Project_PG-DESD-main/Device/Usb_host/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+.phony	Makefile	/^.phony : clean$/;"	t
+INCLUDE_VERMAGIC	usb_urb_cdc.mod.c	/^#define INCLUDE_VERMAGIC$/;"	d	file:
+USB_CDC_BUFSIZE	usb_urb_cdc.c	/^#define USB_CDC_BUFSIZE /;"	d	file:
+USB_CDC_BUFSIZE	xusb_cdc.c	/^#define USB_CDC_BUFSIZE /;"	d	file:
+USB_CDC_EP_IN	usb_urb_cdc.c	/^#define USB_CDC_EP_IN /;"	d	file:
+USB_CDC_EP_IN	xusb_cdc.c	/^#define USB_CDC_EP_IN /;"	d	file:
+USB_CDC_EP_OUT	usb_urb_cdc.c	/^#define USB_CDC_EP_OUT /;"	d	file:
+USB_CDC_EP_OUT	xusb_cdc.c	/^#define USB_CDC_EP_OUT /;"	d	file:
+USB_CDC_PRODUCT_ID	usb_urb_cdc.c	/^#define USB_CDC_PRODUCT_ID /;"	d	file:
+USB_CDC_PRODUCT_ID	xusb_cdc.c	/^#define USB_CDC_PRODUCT_ID /;"	d	file:
+USB_CDC_VENDOR_ID	usb_urb_cdc.c	/^#define USB_CDC_VENDOR_ID /;"	d	file:
+USB_CDC_VENDOR_ID	xusb_cdc.c	/^#define USB_CDC_VENDOR_ID /;"	d	file:
+____versions	usb_urb_cdc.mod.c	/^static const struct modversion_info ____versions[]$/;"	v	typeref:typename:const struct modversion_info[]__used __section ("__versions")	file:
+anchor	usb_urb_cdc.c	/^struct usb_anchor *anchor;$/;"	v	typeref:struct:usb_anchor *
+cdc_close	usb_urb_cdc.c	/^static int cdc_close(struct inode *pinode, struct file *pfile)$/;"	f	typeref:typename:int	file:
+cdc_close	xusb_cdc.c	/^static int cdc_close(struct inode *pinode, struct file *pfile) $/;"	f	typeref:typename:int	file:
+cdc_device_table	usb_urb_cdc.c	/^static struct usb_device_id cdc_device_table[] = {$/;"	v	typeref:struct:usb_device_id[]	file:
+cdc_device_table	xusb_cdc.c	/^static struct usb_device_id cdc_device_table[] = {$/;"	v	typeref:struct:usb_device_id[]	file:
+cdc_disconnect	usb_urb_cdc.c	/^static void cdc_disconnect(struct usb_interface *interface)$/;"	f	typeref:typename:void	file:
+cdc_disconnect	xusb_cdc.c	/^static void cdc_disconnect(struct usb_interface *interface)$/;"	f	typeref:typename:void	file:
+cdc_driver	usb_urb_cdc.c	/^static struct usb_driver cdc_driver = {$/;"	v	typeref:struct:usb_driver	file:
+cdc_driver	xusb_cdc.c	/^static struct usb_driver cdc_driver = $/;"	v	typeref:struct:usb_driver	file:
+cdc_exit	usb_urb_cdc.c	/^static void __exit cdc_exit(void)$/;"	f	typeref:typename:void __exit	file:
+cdc_exit	xusb_cdc.c	/^static __exit void cdc_exit(void)$/;"	f	typeref:typename:__exit void	file:
+cdc_fops	usb_urb_cdc.c	/^static struct file_operations cdc_fops = {$/;"	v	typeref:struct:file_operations	file:
+cdc_fops	xusb_cdc.c	/^static struct file_operations cdc_fops = {$/;"	v	typeref:struct:file_operations	file:
+cdc_init	usb_urb_cdc.c	/^static int __init cdc_init(void)$/;"	f	typeref:typename:int __init	file:
+cdc_init	xusb_cdc.c	/^static __init int cdc_init(void)$/;"	f	typeref:typename:__init int	file:
+cdc_open	usb_urb_cdc.c	/^static int cdc_open(struct inode *pinode, struct file *pfile)$/;"	f	typeref:typename:int	file:
+cdc_open	xusb_cdc.c	/^static int cdc_open(struct inode *pinode, struct file *pfile) $/;"	f	typeref:typename:int	file:
+cdc_probe	usb_urb_cdc.c	/^static int cdc_probe(struct usb_interface *interface, const struct usb_device_id *id)$/;"	f	typeref:typename:int	file:
+cdc_probe	xusb_cdc.c	/^static int cdc_probe(struct usb_interface *interface, const struct usb_device_id *id)$/;"	f	typeref:typename:int	file:
+cdc_read	usb_urb_cdc.c	/^static ssize_t cdc_read(struct file *pfile, char __user *ubuf, size_t usize, loff_t *pfpos)$/;"	f	typeref:typename:ssize_t	file:
+cdc_read	xusb_cdc.c	/^static ssize_t cdc_read(struct file *pfile, char __user *ubuf, size_t usize, loff_t *pfpos) $/;"	f	typeref:typename:ssize_t	file:
+cdc_write	usb_urb_cdc.c	/^static ssize_t cdc_write(struct file *pfile, const char __user *ubuf, size_t usize, loff_t *pfpo/;"	f	typeref:typename:ssize_t	file:
+cdc_write	xusb_cdc.c	/^static ssize_t cdc_write(struct file *pfile, const char __user *ubuf, size_t usize, loff_t *pfpo/;"	f	typeref:typename:ssize_t	file:
+class	usb_urb_cdc.c	/^static struct usb_class_driver class;$/;"	v	typeref:struct:usb_class_driver	file:
+class	xusb_cdc.c	/^static struct usb_class_driver class;$/;"	v	typeref:struct:usb_class_driver	file:
+clean	Makefile	/^clean:$/;"	t
+data	usb_urb_cdc.c	/^static char data[USB_CDC_BUFSIZE] = "LED";$/;"	v	typeref:typename:char[]	file:
+data	xusb_cdc.c	/^static char data[USB_CDC_BUFSIZE] = "";$/;"	v	typeref:typename:char[]	file:
+device	usb_urb_cdc.c	/^static struct usb_device *device;$/;"	v	typeref:struct:usb_device *	file:
+device	xusb_cdc.c	/^static struct usb_device *device;$/;"	v	typeref:struct:usb_device *	file:
+modules	Makefile	/^modules:$/;"	t
+obj-m	Makefile	/^obj-m = usb_urb_cdc.o$/;"	m
+read_complete	usb_urb_cdc.c	/^static void read_complete(struct urb *urb)$/;"	f	typeref:typename:void	file:
+read_urb	usb_urb_cdc.c	/^struct urb *read_urb; \/\/ Define URB for read operation$/;"	v	typeref:struct:urb *
+write_complete	usb_urb_cdc.c	/^static void write_complete(struct urb *urb)$/;"	f	typeref:typename:void	file:
+write_urb	usb_urb_cdc.c	/^struct urb *write_urb; \/\/ Define URB for write operation$/;"	v	typeref:struct:urb *
